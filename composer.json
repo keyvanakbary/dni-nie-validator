@@ -1,0 +1,24 @@
+{
+    "name": "keyvanakbary/dni-nie-validator",
+    "description": "Spanish DNI/NIE validator",
+    "keywords": ["dni", "nie", "validator"],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Keyvan Akbary",
+            "email": "kiwwito@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
